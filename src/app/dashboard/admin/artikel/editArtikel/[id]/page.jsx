@@ -72,11 +72,11 @@ export default function EditArtikel({
                 ]);
 
                 setArticle(articleRes.data);
-                setCategories(categoryRes.data.data); // Ensure category data is correct
+                setCategories(categoryRes.data.data);
                 setPreviewUrl(articleRes.data.imageUrl || null);
-                setValue('title', articleRes.data.title); // Set form values
+                setValue('title', articleRes.data.title);
                 setValue('content', articleRes.data.content);
-                setValue('categoryId', articleRes.data.categoryId); // Set category to match article
+                setValue('categoryId', articleRes.data.categoryId);
                 setText(articleRes.data.content);
             } catch (error) {
                 console.error('Failed to fetch data:', error);

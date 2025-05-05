@@ -36,8 +36,8 @@ export default function ArticleDetail() {
                 });
 
                 if (Array.isArray(response.data.data)) {
-                    const filtered = response.data.data.filter((item) => item.id !== id); // exclude current article
-                    setArticles(filtered.slice(0, limit)); // ambil 3 selain yang sedang dibuka
+                    const filtered = response.data.data.filter((item) => item.id !== id);
+                    setArticles(filtered.slice(0, limit));
                 } else {
                     console.error("Invalid articles format", response.data);
                 }

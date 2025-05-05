@@ -34,7 +34,6 @@ export default function HeaderAdmin({ logoSrc = "/logo.svg", buttonBlue = "bg-[#
         getProfile();
     }, []);
 
-    // Handle logout action
     const handleLogout = () => {
         localStorage.removeItem("access_token");
         router.push("/auth/login");

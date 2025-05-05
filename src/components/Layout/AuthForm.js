@@ -59,7 +59,6 @@ export default function AuthForm({ isLogin = true }) {
 
         toast.success("Login Berhasil!");
 
-        // Redirect berdasarkan role
         setTimeout(() => {
           if (role === "Admin") {
             router.push("/dashboard/admin/artikel");

@@ -5,9 +5,9 @@ const Custom404 = () => {
         <div
             className="flex justify-center items-center h-screen flex-col"
             style={{
-                backgroundImage: 'url("/404.gif")', // Set the background GIF
-                backgroundSize: '300px', // Ensure the image covers the entire container
-                backgroundPosition: 'center', // Center the background
+                backgroundImage: 'url("/404.gif")', 
+                backgroundSize: '300px', 
+                backgroundPosition: 'center',
             }}
         >
         </div>
