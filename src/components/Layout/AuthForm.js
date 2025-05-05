@@ -205,7 +205,7 @@ export default function AuthForm({ isLogin = true }) {
                   href="/auth/login"
                   className="text-[#2563EB] font-medium underline"
                 >
-                  Login
+                  Login AJA DULU
                 </a>
               </p>
             )}
